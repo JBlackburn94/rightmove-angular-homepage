@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { HeroSearchComponent } from '../hero-search/hero-search.component';
-import { SignInBannerComponent } from '../sign-in-banner/sign-in-banner.component';
+import { HeroSearchContainerComponent } from '../hero-search-container/hero-search-container.component';
 
 @Component({
   selector: 'app-hero',
   standalone: true,
-  imports: [HeroSearchComponent, SignInBannerComponent],
+  imports: [HeroSearchContainerComponent],
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.css'
 })
