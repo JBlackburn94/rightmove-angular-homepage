@@ -3,14 +3,15 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
-    padding: 2rem;
-    height: 4rem;
+    height: 51px;
+    font-size: 16px;
+    margin: 0 96.5px;
 }
 
 .logo {
     color: var(--deep-blue);
-    font-size: 2rem;
+    font-size: 1.25rem;
+    padding: 13px 8px 13px 38px;
 }
 
 .logo-alt-text {
@@ -30,7 +31,7 @@ nav {
 .nav-items a {
     text-decoration: none;
     color: var(--deep-blue);
-    font-weight: 700;
+    font-weight: 400;
 }
 
 button {
