@@ -16,3 +16,9 @@ main {
     display: flex;
     column-gap: 16px;
 }
+
+@media (max-width: 767px) {
+    main {
+        row-gap: 16px;
+    }
+}
