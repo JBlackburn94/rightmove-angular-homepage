@@ -82,3 +82,13 @@ button {
         line-height: 24px;
     }
 }
+
+@media (max-width: 576px) {
+    .search-container {
+        width: 380px;
+    }
+    
+    button {
+        width: 165px;
+    }
+}
